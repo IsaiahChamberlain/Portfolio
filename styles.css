@@ -51,6 +51,7 @@ div.practice {
     height: 100px;
     background-color: lightblue;
     overflow: scroll;
+    margin: auto;
 }
 
 #sticky1 {
@@ -58,4 +59,5 @@ div.practice {
     top: 0;
     border: 2px solid;
     background-color: coral;
+    margin: auto;
 }
