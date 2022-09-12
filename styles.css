@@ -10,7 +10,7 @@ body {
     background-color: beige;
 }
 
-h1 {
+h1.h1with2p {
     font-family: 'font1';
 }
 img {
@@ -55,9 +55,20 @@ div.practice {
 }
 
 #sticky1 {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     border: 2px solid;
     background-color: coral;
     margin: auto;
+}
+
+.mainHeader {
+    height: 100vh;
+    min-height: 40em;
+    background-image: url(Images/road1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: scroll;
 }
