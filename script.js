@@ -1,3 +1,5 @@
+//Asking for name and respond with time and name
+
 const MyDate = new Date();
 var hours = MyDate.getTime();
 
@@ -12,3 +14,4 @@ function askName(){
         alert(`Good evening ${firstName} Welcome to my site`)
     }
 }
+
