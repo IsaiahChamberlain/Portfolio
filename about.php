@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script   src="https://code.jquery.com/jquery-3.6.1.js"   integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="   crossorigin="anonymous"></script>
     <title>About</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav style="text-align: Center; background-color: lightblue;">
-        <a href="index.html" title="Home" target="_self" id="home">Home</a>
-        <a href="about.html" title="About" target="_self" id="about">About</a>
-        <a href="portfolio.html" title="Portfolio" target="_self" id="portfolio">Portfolio</a>
+        <a href="index.php" title="Home" target="_self" id="home">Home</a>
+        <a href="about.php" title="About" target="_self" id="about">About</a>
+        <a href="portfolio.php" title="Portfolio" target="_self" id="portfolio">Portfolio</a>
     </nav>
     <section id="about">
         <div class="container">
@@ -33,6 +34,20 @@
     <div style="text-align: center;">
         <h1>Who is Isaiah Chamberlain</h1>
         <p>My name is Isaiah Chamberlain and I have always been interested in web Development, <br /> Ever since I took my first Web Development class in high school, I have been interested <br />and skilled at Web Development.</p>
+    </div>
+    <div>
+        <?php
+        $skills = array("HTML", "CSS", "JavaScript", "Computer Repair");
+        
+        function newList($arr){
+              echo "<ul> My skills are: ";
+              foreach ($arr as $value){
+                echo "<li>" . $value . "</li>";
+              }
+              echo "</ul>";
+        }
+        newList($skills);
+        ?>
     </div>
     <div style="text-align: center;">
         <h1>My Resume</h1>

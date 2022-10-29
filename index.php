@@ -4,14 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script   src="https://code.jquery.com/jquery-3.6.1.js"   integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="   crossorigin="anonymous"></script>
         <title>Isaiah Chamberlain Website</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body onload="askName()">
    <nav style="text-align: center; background-color: lightblue;" id="nav">
-           <a href="index.html" title="Home" target="_self" id="home">Home</a>
-           <a href="about.html" title="About" target="_self" id="about">About</a>
-           <a href="portfolio.html" title="Portfolio" target="_self" id="portfolio">Portfolio</a>
+           <a href="index.php" title="Home" target="_self" id="home">Home</a>
+           <a href="about.php" title="About" target="_self" id="about">About</a>
+           <a href="portfolio.php" title="Portfolio" target="_self" id="portfolio">Portfolio</a>
         </nav>
 
         <header class="mainHeader">
